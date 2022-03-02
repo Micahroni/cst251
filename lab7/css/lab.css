@@ -1,0 +1,29 @@
+body {
+  margin: 10px;
+  background-color: #E4BEB5;
+  color: #63524F;
+  border: 15px solid #A38781;
+  box-shadow: 5px 10px;
+}
+div#sections {
+  background-color: #F0C7BD;
+  width: auto;
+  height: auto;
+}
+div#sections:hover {
+    box-shadow: 5px 10px;
+}
+h1 {
+  font-size: 50px;
+}
+h1:hover {
+  text-decoration: underline;
+}
+#main-image {
+  border: 7.5px solid #C9A79F;
+  width: 250px
+  height: 250px
+}
+#main-image:hover {
+  box-shadow: 5px 10px;
+}
