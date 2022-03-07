@@ -1,0 +1,29 @@
+#mario {
+  float: right;
+}
+
+h1, h2 {
+  font-family: "Lato", monospace;
+  color: white;
+}
+
+h1{
+  border: 15px solid #9C1A00;
+  width: 122.5px;
+  height: auto;
+}
+
+h1:hover{
+  box-shadow: 5px 10px;
+
+}
+
+body{
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #DB2600;
+}
+
+h2:hover{
+  text-decoration: underline;
+}
