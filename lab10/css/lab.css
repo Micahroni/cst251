@@ -1,0 +1,26 @@
+#img {
+  float: right;
+}
+
+#img:hover {
+  width: 500;
+  height: 500;
+}
+
+#signoff {
+  float: right;
+}
+
+body {
+  margin: 30px;
+  background-color: #F0D5F2;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #655A66;
+}
+
+h2:hover {
+ text-decoration: underline;
+}
