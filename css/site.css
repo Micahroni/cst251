@@ -1,0 +1,45 @@
+img {
+  border: 10px solid #9C3D40;
+  float: right;
+  position: sticky;
+}
+
+body {
+  margin-right: 250px;
+  margin-left: 250px;
+  background-color: #FF969A;
+  font-family: sans-serif;
+}
+
+img:hover {
+  box-shadow: 10px 10px #E87276;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#homepage-nav {
+  border: 10px solid #9C3D40;
+  margin-right: 650px;
+  background-color: #72E891;
+  font-weight: bold;
+}
+
+#homepage-nav:hover {
+  box-shadow: 10px 10px #E87276;
+}
+
+h1:hover {
+  color: #72E891;
+  text-decoration: underline;
+}
+
+h3:hover {
+  color: #2D9C4A;
+  text-decoration: underline;
+}
+
+li:hover {
+  color: #66E8D2;
+}
