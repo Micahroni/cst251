@@ -1,0 +1,37 @@
+#sidebar {
+  display: inline-block;
+  min-width: 300px;
+  width: 30%;
+  position: sticky;
+  float: right;
+  font-weight: 750;
+  border: 3px solid black;
+}
+
+#sidebar:hover {
+  box-shadow: 6px 6px;
+}
+
+body {
+  margin-top: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  border: 30px;
+  font-family: sans-serif;
+}
+
+img {
+  border: 3px solid black;
+}
+
+img:hover {
+  box-shadow: 6px 6px;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
