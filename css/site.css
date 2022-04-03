@@ -43,3 +43,10 @@ h3:hover {
 li:hover {
   color: #66E8D2;
 }
+
+iframe#homepage {
+    width: 1920px;
+    height: 1080px;
+    resize: both;
+    overflow: hidden;
+}

@@ -1,26 +1,64 @@
-#img {
-  float: right;
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  position: relative;
+  z-index: -100;
 }
 
-#img:hover {
-  width: 500;
-  height: 500;
-}
-
-#signoff {
-  float: right;
-}
-
-body {
-  margin: 30px;
-  background-color: #;
+#title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  text-align: center;
   font-family: sans-serif;
+  font-weight: 10000;
+  font-size: 300px;
+  color: white;
+  margin-top: 250px;
 }
 
-h2 {
-  color: #;
+#img {
+  z-index: -30;
+  width: 50%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-h2:hover {
- text-decoration: underline;
+#and {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 10000;
+  font-size: 300px;
+  color: #435170;
+  margin-top: 400px;
+}
+
+#title2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 10000;
+  font-size: 300px;
+  color: white;
+  margin-top: 550px;
+}
+
+li {
+  font-size: 50px;
 }
