@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    background-color: #2D4233;
+    padding: 25px;
+    font-size: 120%;
+    background-image:
+      linear-gradient(#2D4233, black);
+}
+
+div#content {
+    padding: 50px;
+    background-color: #84C295;
+    border-radius: 25px;
+    border: solid 1px #333333;
+    height: 80vh;
+    box-shadow: 5px 5px 5px 7.5px black;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    color: #75383A;
+    text-shadow:
+}
+
+img#jaylah {
+  position: fixed;
+    float: right;
+    width: 1000px;
+    margin-left: 1100px;
+}
+
+a {
+    text-decoration: none;
+    color: #C28486;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+p {
+  color: #194224;
+}
+
+h1 {
+  font-size: 100px;
+  position: static;
+  text-shadow: 3px 3px 5px black;
+}
+
+img#ghost {
+  filter: opacity(45%);
+}
+
+img#larry {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  transform: rotate(20deg);
+}
