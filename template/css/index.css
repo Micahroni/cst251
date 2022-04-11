@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: #;
+    padding: 25px;
+    font-size: 120%;
+    background-image:
+}
+
+div#content {
+    padding: 50px;
+    background-color: #;
+    border-radius: 25px;
+    border: solid 1px #;
+    height: 80vh;
+    box-shadow: 5px 5px 5px 7.5px black;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    color: #;
+    text-shadow:
+}
+
+img# {
+  position: fixed;
+    float: right;
+    width: 1000px;
+    margin-left: 1100px;
+}
+
+a {
+    text-decoration: none;
+    color: #;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+p {
+  color: #;
+}
+
+h1 {
+  font-size: 100px;
+  position: static;
+  text-shadow: 3px 3px 5px black;
+}
+
+img# {
+
+}
+
+img# {
+  width: 500px;
+  height: 500px;
+
+}
