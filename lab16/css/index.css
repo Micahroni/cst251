@@ -3,7 +3,7 @@ body {
     background-color: #;
     background-image: url(https://media.giphy.com/media/sG44lRh63fqso/giphy.gif), url(https://vignette4.wikia.nocookie.net/donkeykong/images/f/f2/Big-gold-banana.gif/revision/latest?cb=20140628213053);
     background-size: 1000px;
-    background-position: center;
+    background-position: center, left;
     padding: 25px;
     font-size: 120%;
 }
@@ -15,20 +15,37 @@ div#content {
     border: solid 1px #;
     height: 80vh;
     box-shadow: 5px 5px 5px 7.5px black;
-    filter: opacity(75%);
+    filter: opacity(90%);
 }
 
 h1, h2, h3 {
     font-family: sans-serif;
-    color: #;
-    text-shadow:
+    color: black;
+    animation-name: large;
+    animation-duration: 2s;
+    transition: color 2s;
 }
 
-img# {
-  position: fixed;
-    float: right;
+h1, h2, h3:hover {
+    color: gray;
+}
+
+@keyframes large {
+    0%  {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+img#banana {
+  position: absolute;
     width: 1000px;
-    margin-left: 1100px;
+    margin-top: 800px;
+    margin-left: 500px;
+    opacity: 0%;
+    transition: opacity 5s;
+}
+
+img#banana:hover {
+  opacity: 100%;
 }
 
 a {
@@ -58,4 +75,8 @@ img# {
   width: 500px;
   height: 500px;
 
+}
+
+h2 {
+  column-count: 3;
 }
